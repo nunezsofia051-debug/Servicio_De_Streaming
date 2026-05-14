@@ -1,5 +1,13 @@
-#Nombre/s: Nuñez Sofia, Godoy Rafael, Farias Miguel, Galvan Dilan 
+Historial de usuario 
 
 
-#Título: Servicio de Streaming de Películas
-	Fecha.
+  Integrantes: 
+  
+  Nuñez Sofia, Godoy Rafael, Farias Miguel, Galvan Dilan 
+
+Materia: Introduccion al Analisis Sitemico _ Alfabetizacion Digital 
+
+Profesor: Narciso Perez
+
+Título: Servicio de Streaming de Películas
+
