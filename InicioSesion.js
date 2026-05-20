@@ -1,24 +1,29 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Streaming Login</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+function login() {
 
-    <div class="login-container">
-        <h1>MovieStream</h1>
+    const username = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
+    const message = document.getElementById("message");
 
-        <input type="text" id="username" placeholder="Usuario">
-        <input type="password" id="password" placeholder="Contraseña">
+    // Usuario y contraseña de prueba
+    const correctUser = "admin";
+    const correctPassword = "1234";
 
-        <button onclick="login()">Iniciar Sesión</button>
+    if(username === correctUser && password === correctPassword){
 
-        <p id="message"></p>
-    </div>
+        localStorage.setItem("loggedUser", username);
 
-    <script src="script.js"></script>
-</body>
-</html>
+        message.style.color = "lightgreen";
+        message.textContent = "Inicio de sesión exitoso";
+
+        // Redirección simulada
+        setTimeout(() => {
+            window.location.href = "home.html";
+        }, 1500);
+
+    } else {
+
+        message.style.color = "tomato";
+        message.textContent = "Usuario o contraseña incorrectos";
+
+    }
+}
