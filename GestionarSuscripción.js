@@ -10,3 +10,5 @@ function gestionarSuscripcion(usuario, plan, pagoAprobado) {
 
 gestionarSuscripcion("Sofia", "Premium", true);
 gestionarSuscripcion("Rafael", "Básico", false);
+gestionarSuscripcion("Miguel", "Basico", true);
+gestionarSuscripcion("Dilan", "Premium", true);
