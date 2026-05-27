@@ -13,5 +13,6 @@ function agregarFavorito(pelicula) {
 agregarFavorito("Avengers");
 agregarFavorito("Batman");
 agregarFavorito("Avengers");
+agregarFavorito("El señor de los anillos");
 
 console.log("Lista de favoritos:", favoritos);
