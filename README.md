@@ -31,9 +31,9 @@ Servicio de Streaming
 ---
 
 ## Herramientas que usamos 
-Git y GitHub
-ChatGPT
-JavaScript
+- Git y GitHub
+- ChatGPT
+- JavaScript
 
 ---
 
