@@ -3,3 +3,4 @@ function continuarReproduccion(pelicula, minuto) {
 }
 
 continuarReproduccion("Interstellar", 45);
+continuarReproduccion("El señor de los anillos", 0);
