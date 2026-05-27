@@ -30,6 +30,13 @@ Servicio de Streaming
 
 ---
 
+## Herramientas que usamos 
+Git y GitHub
+ChatGPT
+JavaScript
+
+---
+
 ## ⚙ Funcionalidades
 - Registrar usuario
 - Iniciar sesión
